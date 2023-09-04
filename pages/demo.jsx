@@ -23,7 +23,7 @@ const Demo = () => {
 
   const handleSendEmail = () => {
     if (isEmailValid) {
-      fetch("http://localhost:7000/mailsend", {
+      fetch("https://speak-money-backend-kvz8se62p-jahids.vercel.app/mailsend", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -54,16 +54,16 @@ const Demo = () => {
       <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl mt-20  font-bold text-gray-900 md:text-3xl">
-              Ready to see it in action? Request a demo now!
+            <h2 className="text-4xl mt-20  font-bold text-gray-900 md:text-4xl">
+              Ready to see it in  <span className="text-indigo-600">action? </span> Request a <span className="text-indigo-600">demo </span> now!
             </h2>
 
-            <p className="hidden text-gray-500 md:mt-4 md:block">
+            {/* <p className="hidden text-gray-500 md:mt-4 md:block">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
               egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper
               eu enim et fermentum, augue. Aliquet amet volutpat quisque ut
               interdum tincidunt duis.
-            </p>
+            </p> */}
 
             <div className="mt-4 md:mt-8 flex items-center justify-center gap-5">
               <div className="w-full py-10">
@@ -79,7 +79,7 @@ const Demo = () => {
                 <button
                   onClick={handleSendEmail}
                   disabled={!isEmailValid} // Disable the button if the email is not valid
-                  className={`inline-block rounded bg-indigo-600 px-6 py-6 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400 ${
+                  className={`inline-block rounded bg-indigo-600 px-6 py-6 text-sm font-medium text-white transition hover:bg-indigo-900 focus:outline-none focus:ring focus:ring-yellow-400 ${
                     !isEmailValid && "cursor-not-allowed opacity-50"
                   }`}
                 >

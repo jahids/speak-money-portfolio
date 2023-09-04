@@ -22,8 +22,7 @@ const Footer = () => {
   </span>
 </div>
                   <p className="mt-6 text-gray-300">
-                    Start working with Tailwind CSS that can provide everything
-                    you need to generate awareness, drive traffic, connect.
+                  Start using Speak Money, the all-in-one financial management app that provides everything you need to achieve your financial goals.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="inline">

@@ -22,9 +22,9 @@ const ChoosePricingPlan = () => {
 					</h3>
 
 					<p class="text-slate-400 max-w-xl mx-auto">
-						Start working with speak money that can provide
-						everything you need to generate awareness, drive
-						traffic, connect.
+						Start using Speak Money, the all-in-one financial
+						management app that provides everything you need to
+						achieve your financial goals.
 					</p>
 				</div>
 				{/* <!--end grid--> */}

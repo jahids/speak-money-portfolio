@@ -15,10 +15,7 @@ const MainLayout = ({ children }) => {
 					content="width=device-width, initial-scale=1, shrink-to-fit=no"
 				/>
 				<meta name="description" content="" />
-				<meta
-					name="keywords"
-					content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css"
-				/>
+				<meta name="keywords" content="" />
 				<meta name="author" content="Shreethemes" />
 				<meta name="website" content="https://shreethemes.in" />
 				<meta name="email" content="support@shreethemes.in" />
@@ -32,18 +29,6 @@ const MainLayout = ({ children }) => {
 			<Footer />
 
 			<div className="cookie-popup fixed max-w-lg bottom-3 right-3 left-3 sm:left-0 sm:right-0 mx-auto bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md py-5 px-6 z-50">
-				<p className="text-slate-400">
-					This website uses cookies to provide you with a great user
-					experience. By using it, you accept our{" "}
-					<a
-						href="https://shreethemes.in"
-						target="_blank"
-						rel="noreferrer"
-						className="text-emerald-600 dark:text-emerald-500 font-semibold"
-					>
-						use of cookies
-					</a>
-				</p>
 				<div className="cookie-popup-actions text-right">
 					<button className="absolute border-none bg-none p-0 cursor-pointer font-semibold top-2 right-2">
 						<i className="uil uil-times text-dark dark:text-slate-200 text-2xl"></i>

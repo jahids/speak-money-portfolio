@@ -28,7 +28,7 @@ const MainLayout = ({ children }) => {
 				<meta name="version" content="1.5.0" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<title>Speak money</title>
-				<link rel="shortcut icon" href="assets/images/favicon.ico" />
+				{/* <link rel="shortcut icon" href="assets/images/favicon.ico" /> */}
 			</Head>
 			<NavBar />
 			{children}

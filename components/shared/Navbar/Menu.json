@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Home",
+    "url": "/",
+    "hasChild": false
+  },
+  {
+    "title": "ABOUT US",
+    "url": "/",
+    "hasChild": false
+  },
+  {
+    "title": "SERVICES",
+    "url": "/",
+    "hasChild": false
+  },
+  {
+    "title": "CONTACT",
+    "url": "/",
+    "hasChild": false
+  }
+]
